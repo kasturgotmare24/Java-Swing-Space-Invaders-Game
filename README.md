@@ -32,7 +32,7 @@ This project serves as a **fully functional game** and a **showcase of Java game
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/space-invaders-java.git](https://github.com/your-username/space-invaders-java.git)
+    git clone [https://github.com/kasturgotmare24/Java-Swing-Space-Invaders-Game.git]
     ```
 2.  **Navigate to the directory and compile the Java source files:**
     ```sh
