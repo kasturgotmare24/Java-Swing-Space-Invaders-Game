@@ -30,27 +30,6 @@ The project is optimized for smooth gameplay and is ideal for anyone wanting to 
 | Backend  | Java            |
 | Tools    | Eclipse, IntelliJ IDEA |
 
-## 📁 Project Structure
-
-```markdown
-Java-Swing-Space-Invaders-Game
-├── src
-│   └── com/mycompany/spaceshooter
-│       ├── GameWindow.java
-│       ├── Alien.java
-│       ├── Player.java
-│       ├── Bullet.java
-│       └── ...
-├── assets
-│   ├── images
-│   │   ├── alien.png
-│   │   └── ship.png
-│   └── sounds (optional)
-├── bin
-├── README.md
-```
-*Each folder is organized for readability and easy navigation. Game logic and rendering are separated by class.*
-
 ## ⚙️ How to Run
 
 ### Setup
@@ -100,31 +79,3 @@ Java-Swing-Space-Invaders-Game
 *Automated/unit testing:*
 - Add JUnit tests for logic classes if desired.
 
-## 📸 Screenshots
-
-*Insert screenshots of gameplay, such as the start screen, active play, and game over.*
-
-```
-![Gameplay Screenshot](assets/screenshots/gameplay.png)
-```
-
-## 📦 API Reference
-
-*Public classes with descriptions (example):*
-
-- `GameWindow`: Main JFrame, entry point and game loop.
-- `Player`: Player's spaceship logic.
-- `Alien`: Alien behavior and movement.
-- `Bullet`: Handling of projectiles.
-
-In-code documentation is available for all main methods and classes.
-
-## 👤 Author
-
-* [Your Name or GitHub Username]
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-With this Java Swing Space Invaders Game, you can study, play, or enhance a classic arcade implementation while learning core principles of Java GUI and game logic. Happy coding! 😊
