@@ -19,6 +19,17 @@ public class SpaceInvaders extends JPanel implements ActionListener, KeyListener
     Image alienMagentaImg;
     Image alienYellowImg;
     ArrayList<Image> alienImgArray;
+        // Main method to start the game
+        public static void main(String[] args) {
+            JFrame frame = new JFrame("Space Invaders");
+            SpaceInvaders gamePanel = new SpaceInvaders();
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setResizable(false);
+            frame.add(gamePanel);
+            frame.pack();
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+        }
 
     class Block {
         int x;
@@ -75,7 +86,7 @@ public class SpaceInvaders extends JPanel implements ActionListener, KeyListener
         addKeyListener(this);
 
         //load images
-        shipImg = new ImageIcon(getClass().getResource(".Assets/ship.png")).getImage();
+        shipImg = new ImageIcon(getClass().getResource("./ship.png")).getImage();
         alienImg = new ImageIcon(getClass().getResource("./alien.png")).getImage();
         alienCyanImg = new ImageIcon(getClass().getResource("./alien-cyan.png")).getImage();
         alienMagentaImg = new ImageIcon(getClass().getResource("./alien-magenta.png")).getImage();
